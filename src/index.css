@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Rubik", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom layout enhancements for high visual fidelity */
+body {
+  background-color: #f8fafc;
+  direction: rtl; /* RTL default because user requested Hebrew comparative tool */
+  font-family: var(--font-sans);
+}
+

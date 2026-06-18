@@ -1,0 +1,6 @@
+{
+  "name": "Excel ID Comparator",
+  "description": "השוואה בין קבצי אקסל, סינון לפי TLV 1 ו-TLV 2, והתרעה על מזהים חסרים כולל פורמט טלפון ייעודי",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
